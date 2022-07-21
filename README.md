@@ -18,23 +18,5 @@ The first step in building machine learning models is to pre-process the data in
 ## Results
 For gender classification, our baseline model works the best. For ethnicity classification, transfer learning works better than the complex and baseline model. For predicting age, transfer learning gives the lowest RMSE of 9.792
 
-### Gender:
-Model           Train data accuracy Val data accuracy Test data accuracy
-Baseline model       91.46                88.49             88.9
-Complex model        97.29                86.87             87.2
-Transfer learning    81.68                79.24             78.8
-
-
-### Ethnicity 
-Model          Train data accuracy  Val data accuracy Test data accuracy
-Baseline model       84.36               76.52              76.85
-Complex model        94.04               71.67              72.5
-Transfer learning    81.51               79.44              79.3
-
-### Age 
-Model          Train data RMSE      Val data RMSE     Test data RMSE
-Baseline model     10.8608              11.0019           10.751
-Transfer learning  5.7316               10.2926           9.782
-
 ## Conclusion
 By analyzing images in relation to the genders, ethnicity, and age using different approaches, we conclude that in most cases using transfer learning would have a better result. From the charts above, we see that both ethnicity and age inferred from the images using transfer learning yielded the best result. However, in the results in the classification of gender, transfer learning did not give the best accuracy. Instead, the simple baseline model did the best among the three models. We conclude that this could be a result of overfitting in this relatively simple classification. 
